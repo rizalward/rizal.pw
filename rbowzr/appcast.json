@@ -1,0 +1,34 @@
+{
+  "app" : {
+    "ed25519" : "0vffm+WsHSQDfcYYNbEa2SAQTfKesiFLk7lYq03Ero25nU934a4W40jT9ZYijAadJCO/kxiQsmmRKU212R8UBg==",
+    "id" : "info.rizal.rbowzr.native",
+    "kind" : "app",
+    "minimumSystemVersion" : "14.0",
+    "name" : "RBOWZR-1.1.1.dmg",
+    "notes" : "ЯOS base shell · signed updater (/update) · .RZL eggs (/eggs)",
+    "sha256" : "e7d5904a7d924e337988995e827434787596b2a8ccfa24ee06f0fb1bcba5c1f1",
+    "size" : 8800154,
+    "title" : "ЯBOWZR",
+    "url" : "https://github.com/rizalward/rizal.info/releases/download/rbowzr-v1.1.1/RBOWZR-1.1.1.dmg",
+    "version" : "1.1.1"
+  },
+  "eggs" : [
+    {
+      "ed25519" : "04hhsJSS9E+5WOUjyYI39GzSGhHcCuZupe0xzZfgotf2XNZ3zTC9XvSNJx3QAzWIQVxlsxFoUpsZPecfSN5XDg==",
+      "id" : "welcome",
+      "kind" : "egg",
+      "name" : "welcome.rzl",
+      "sha256" : "4446b2e7f69d6fe6f30396e2b6a7614ec1fd9f9695ced8c53b9d9034397c6a6f",
+      "size" : 159,
+      "title" : "Welcome to ЯOS",
+      "url" : "eggs/welcome.rzl",
+      "version" : "1.1.1"
+    }
+  ],
+  "feed" : "https://rizal.info/rbowzr/appcast.json",
+  "generated" : "2026-09-28T21:27:42Z",
+  "keyId" : "e5833fdfbbfe",
+  "product" : "ЯBOWZR",
+  "schema" : "rlab-appcast.v1",
+  "signedMessage" : "rlab-update-v1\\n<kind>\\n<id>\\n<version>\\n<name>\\n<size>\\n<sha256> (ed25519; url not signed)"
+}
