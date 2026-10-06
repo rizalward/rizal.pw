@@ -1,0 +1,21 @@
+{
+  "schema": "rlab.yabowzr.ubuntu-touch-content.v1",
+  "product": "ЯBOWZR",
+  "channel": "stable",
+  "platform": "ubuntu-touch-arm64",
+  "version": "0.1.0-ut3",
+  "generated": "2026-10-05T00:15:00-06:00",
+  "policy": {
+    "nativeHostRebuildRequiredFor": ["native-host", "permissions", "intent-registration"],
+    "nativeHostRebuildNotRequiredFor": ["shell-assets", "tile-content", "remote-manifest"],
+    "activation": "content-only atomic promotion with previous-tree rollback"
+  },
+  "artifact": {
+    "version": "0.1.0-ut3",
+    "name": "face.tar.gz",
+    "url": "https://raw.githubusercontent.com/rizalward/rizal.info/main/rbowzr/ubuntu-touch/releases/0.1.0-ut3-r2/face.tar.gz",
+    "size": 8820444,
+    "sha256": "768bd1640e0ddb0de6f4839c927041a59d3e34efa1731f94d572802ae291e6ce",
+    "contents": "face/* only"
+  }
+}

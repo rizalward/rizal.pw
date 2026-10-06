@@ -15,6 +15,13 @@
   <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/styles.css">
+  <style>
+    .potlatch-banner{margin:0.75rem 1rem 0;padding:0.85rem 1rem;border-radius:14px;border:2px solid var(--panel-edge,#7a45b0);
+      background:linear-gradient(165deg,var(--panel,#5b2d8e),var(--panel-2,#472070));box-shadow:0 8px 24px rgba(0,0,0,.35)}
+    .potlatch-banner strong{color:var(--gold,#e8c547);display:block;font-size:1.05rem;margin-bottom:0.25rem}
+    .potlatch-banner p{margin:0 0 0.55rem;color:var(--text,#f5ecd8);font-size:0.92rem}
+    .potlatch-banner a{display:inline-block;background:var(--gold,#e8c547);color:#1a1208;font-weight:700;padding:0.45rem 0.9rem;border-radius:999px;text-decoration:none}
+  </style>
 </head>
 <body>
   <a class="sr-only" href="#composer">Skip to composer</a>
@@ -40,6 +47,12 @@
         <input type="search" id="search" placeholder="Search transcript…" autocomplete="off" enterkeyhint="search">
       </div>
     </header>
+    <div class="potlatch-banner" id="potlatchBanner">
+      <strong>Я OS Я POTLATCH APP MARKET</strong>
+      <p>Free installs &amp; updates for every Я app · SEND IT donations</p>
+      <a href="/potlatch/">Open Potlatch</a>
+    </div>
+
 
     <main id="transcript" class="transcript" aria-live="polite" aria-relevant="additions"></main>
 
