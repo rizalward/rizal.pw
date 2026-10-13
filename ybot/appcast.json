@@ -1,46 +1,74 @@
 {
   "app" : {
-    "ed25519" : "RvJ2BaZVe8rW+TtzeEExNIaIBRqvfITOdpQ+v+Bve4qjvnjltaC31vyllJMZ+G7Ldk+jQpdhMzGzS9jFrk+eAw==",
+    "build" : "2026101218",
+    "ed25519" : "tR9cZYPdEKn7OzxQA9AxRXOQmStKT+xNznBMjF3kEv8OUq13gtRieVfNhoKRXIsteE0VOLkU7oENCM9ewUWoCw==",
     "id" : "io.github.rizaleon.yaaim",
     "kind" : "app",
     "minimumSystemVersion" : "26.6.2",
-    "name" : "YBOT-0.3.8.dmg",
-    "notes" : "ЯBOT 0.3.8 (2026100507) · fresh wallet · relay client · heart fused in · egg updater (/eggs) · bots panel · one app one tile",
-    "sha256" : "e25ab9935bb0e59e62329c4ee50fc4b5fc226049e2e81ff7bfb018262c0a58ec",
-    "size" : 678423676,
+    "name" : "YBOT-2.1.2.dmg",
+    "notes" : "ЯBOT 2.1.2 (2026101218) · ALL APPS UPDATE TOGETHER (ЯBOT + ЯBOWZR, iOS + macOS, same version+build) · self-evolving shell: core-base eggs raise the effective version/build · add-only guard · commands with or without slash · offline chat fix · BENCHMARK-AIRPLANE-HEART-001 PASS",
+    "sha256" : "26b71749698505218d13eeece9192017883fa36ad880d0f3608032c2dd8e1dcb",
+    "size" : 685673801,
     "title" : "ЯBOT",
-    "url" : "https://github.com/rizalward/rizal.info/releases/download/ybot-v0.3.8/YBOT-0.3.8.dmg",
-    "version" : "0.3.8"
+    "url" : "https://github.com/rizalward/rizal.info/releases/download/ybot-v2.1.2/YBOT-2.1.2.dmg",
+    "version" : "2.1.2"
   },
   "apps" : {
     "ios" : {
+      "build" : "2026101218",
+      "ed25519" : "GUd7T/DS/Uu8YZhXXJFlQBKH5SzjeRtdh0EM9LFr/O2ElnxW2HDENTwOTOW5BE/cdLzMO5CRqNwnOQSVC6I0Ag==",
+      "heart" : {
+        "bytes" : 639446688,
+        "id" : "qwen3-0.6b-q8",
+        "path" : "FusedPygmy.rzl/heart/heart.gguf",
+        "sha256" : "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031"
+      },
       "id" : "io.github.rizaleon.yaaim",
-      "kind" : "app-notice",
-      "notes" : "ios 0.3.8 (2026100507): no public IPA yet (free Apple profile) · lab install via USB / Wi-Fi devicectl · eggs work in-app",
+      "kind" : "app",
+      "name" : "YBOT-2.1.2-ios.ipa",
+      "notes" : "ios 2.1.2 (2026101218) · ALL APPS UPDATE TOGETHER (ЯBOT + ЯBOWZR, iOS + macOS, same version+build) · self-evolving shell: core-base eggs raise the effective version/build · add-only guard · commands with or without slash · offline chat fix · BENCHMARK-AIRPLANE-HEART-001 PASS · development-signed IPA (registered devices)",
       "platform" : "ios",
+      "route" : "signed appcast + home-network-only token-gated iPhone→Mac tile route (never USB)",
+      "sha256" : "fcf6b9430122eaca494cb052df503e21a5c8dc2e227016baad3f21e94bfbc71d",
+      "size" : 679864546,
       "store" : "",
-      "version" : "0.3.8"
+      "url" : "https://github.com/rizalward/rizal.info/releases/download/ybot-v2.1.2/YBOT-2.1.2-ios.ipa",
+      "version" : "2.1.2"
     },
     "ipados" : {
+      "build" : "2026101218",
+      "ed25519" : "Jh3RdZSCdsoCzFp0Yrsgk9XGsPHIjsQmw9xPhvRFc9oItmewgWfjAcqrFO71ILrpo3xsVGJlVSNLqvnkruA5Cg==",
+      "heart" : {
+        "bytes" : 639446688,
+        "id" : "qwen3-0.6b-q8",
+        "path" : "FusedPygmy.rzl/heart/heart.gguf",
+        "sha256" : "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031"
+      },
       "id" : "io.github.rizaleon.yaaim",
-      "kind" : "app-notice",
-      "notes" : "ipados 0.3.8 (2026100507): no public IPA yet (free Apple profile) · lab install via USB / Wi-Fi devicectl · eggs work in-app",
+      "kind" : "app",
+      "name" : "YBOT-2.1.2-ios.ipa",
+      "notes" : "ipados 2.1.2 (2026101218) · ALL APPS UPDATE TOGETHER (ЯBOT + ЯBOWZR, iOS + macOS, same version+build) · self-evolving shell: core-base eggs raise the effective version/build · add-only guard · commands with or without slash · offline chat fix · BENCHMARK-AIRPLANE-HEART-001 PASS · development-signed IPA (registered devices)",
       "platform" : "ipados",
+      "route" : "signed appcast + home-network-only token-gated iPhone→Mac tile route (never USB)",
+      "sha256" : "fcf6b9430122eaca494cb052df503e21a5c8dc2e227016baad3f21e94bfbc71d",
+      "size" : 679864546,
       "store" : "",
-      "version" : "0.3.8"
+      "url" : "https://github.com/rizalward/rizal.info/releases/download/ybot-v2.1.2/YBOT-2.1.2-ios.ipa",
+      "version" : "2.1.2"
     },
     "macos" : {
-      "ed25519" : "RvJ2BaZVe8rW+TtzeEExNIaIBRqvfITOdpQ+v+Bve4qjvnjltaC31vyllJMZ+G7Ldk+jQpdhMzGzS9jFrk+eAw==",
+      "build" : "2026101218",
+      "ed25519" : "RsBBixXJG5siab8TRD93VUBy23v2uJ5TFNrUMQpQdjZGjVSMT6UlYaBGI3ePei17VVNCSx7SLjBWsv14p6NWAg==",
       "id" : "io.github.rizaleon.yaaim",
       "kind" : "app",
       "minimumSystemVersion" : "26.6.2",
-      "name" : "YBOT-0.3.8.dmg",
-      "notes" : "ЯBOT 0.3.8 (2026100507) · fresh wallet · relay client · heart fused in · egg updater (/eggs) · bots panel · one app one tile",
-      "sha256" : "e25ab9935bb0e59e62329c4ee50fc4b5fc226049e2e81ff7bfb018262c0a58ec",
-      "size" : 678423676,
+      "name" : "YBOT-2.1.2.dmg",
+      "notes" : "ЯBOT 2.1.2 (2026101218) · ALL APPS UPDATE TOGETHER (ЯBOT + ЯBOWZR, iOS + macOS, same version+build) · self-evolving shell: core-base eggs raise the effective version/build · add-only guard · commands with or without slash · offline chat fix · BENCHMARK-AIRPLANE-HEART-001 PASS",
+      "sha256" : "26b71749698505218d13eeece9192017883fa36ad880d0f3608032c2dd8e1dcb",
+      "size" : 685673801,
       "title" : "ЯBOT",
-      "url" : "https://github.com/rizalward/rizal.info/releases/download/ybot-v0.3.8/YBOT-0.3.8.dmg",
-      "version" : "0.3.8"
+      "url" : "https://github.com/rizalward/rizal.info/releases/download/ybot-v2.1.2/YBOT-2.1.2.dmg",
+      "version" : "2.1.2"
     }
   },
   "eggs" : [
@@ -275,7 +303,7 @@
     }
   ],
   "feed" : "https://rizal.info/ybot/appcast.json",
-  "generated" : "2026-10-11T19:09:37Z",
+  "generated" : "2026-10-13T01:56:57Z",
   "keyId" : "e5833fdfbbfe",
   "product" : "ЯBOT",
   "schema" : "rlab-appcast.v1",
