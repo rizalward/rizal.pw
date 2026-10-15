@@ -428,10 +428,76 @@
       "title" : "BATIBABOX 2.1.7 rvm1 · conversation + action skills ported to the ЯVM (rvm.v1) · 2.1.7 base zip kept",
       "url" : "eggs/BATIBABOX-EMBED-2.1.7-rvm1.rzl.zip",
       "version" : "2.1.7"
+    },
+    {
+      "ed25519" : "lxmkyT5nKSFrUCoIJGzEWHAxRvq+XDAlZ5xuPcGAj2ZGDr3z+G3GWbP6xzo3AvjU0bs6Li6kqoVNpD/mDqnnDA==",
+      "hosts" : [
+        "rbowzr",
+        "ybot"
+      ],
+      "id" : "egg-ping",
+      "kind" : "egg",
+      "minHostVersion" : "1.1.2",
+      "name" : "egg-ping-0.0.2.rzl.zip",
+      "platforms" : [
+        "macos",
+        "ios",
+        "ipados",
+        "linux"
+      ],
+      "sha256" : "a1af957090e78e227d010a57c1e3735e41e78949366e9961d6ad0359bed0f893",
+      "size" : 1208,
+      "title" : "egg-ping 0.0.2 · no-op update test",
+      "url" : "eggs/egg-ping-0.0.2.rzl.zip",
+      "version" : "0.0.2"
+    },
+    {
+      "ed25519" : "2Wh0AME74iOfLow6bEmzALAgvq0YdXPbtBTWSYJj6D56n10BMVvSdiYiSCWLEc9IBfDfLDjgjHi+G/hZBzQEAg==",
+      "hosts" : [
+        "rbowzr",
+        "ybot"
+      ],
+      "id" : "spong",
+      "kind" : "egg",
+      "minHostVersion" : "1.1.2",
+      "name" : "spong-0.0.1.rzl.zip",
+      "platforms" : [
+        "macos",
+        "ios",
+        "ipados",
+        "linux"
+      ],
+      "sha256" : "b411980b561f2d6d7accb10341d1327303d7868bfcca4ee2897db975b4858306",
+      "size" : 3646,
+      "title" : "SPONG 0.0.1 · /spong RWEB reachability (read-only)",
+      "url" : "eggs/spong-0.0.1.rzl.zip",
+      "version" : "0.0.1"
+    },
+    {
+      "ed25519" : "4acmyW62zEI2bsx1ERQPfX4Jma1TueGqjHJcE5qKZdxUmcjUv4T9eGFkX3btTQFet31KRBLiiebqn8FWMAVsCw==",
+      "hosts" : [
+        "rbowzr",
+        "ybot"
+      ],
+      "id" : "trust-keys",
+      "kind" : "egg",
+      "minHostVersion" : "1.1.2",
+      "name" : "trust-keys-0.0.1.rzl.zip",
+      "platforms" : [
+        "macos",
+        "ios",
+        "ipados",
+        "linux"
+      ],
+      "sha256" : "b71c0a1387909b4a7a7efc033fb35034aaeae8a947f76c150084f3459c1129e6",
+      "size" : 1526,
+      "title" : "trust-keys 0.0.1 · seq 1 · + 17e Face ID P-256 signers (full) · add-only",
+      "url" : "eggs/trust-keys-0.0.1.rzl.zip",
+      "version" : "0.0.1"
     }
   ],
   "feed" : "https://rizal.info/rbowzr/appcast.json",
-  "generated" : "2026-10-15T08:07:27Z",
+  "generated" : "2026-10-15T08:09:55Z",
   "keyId" : "e5833fdfbbfe",
   "product" : "ЯBOWZR",
   "schema" : "rlab-appcast.v1",
